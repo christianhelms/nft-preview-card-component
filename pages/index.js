@@ -17,7 +17,7 @@ export default function Home() {
           />
           <p className='text-white font-outfit font-semibold text-2xl pb-2 pt-2'>Equilibrium #3429</p>
           <p className='text-dark-gray font-outfit text-lg font-light pb-2'>Our Equilibrium collection promotes balance and calm.</p>
-          <div className='flex flex-row border-b-2 border-very-dark-gray pb-4'>
+          <div className='flex flex-row justify-between border-b-2 border-very-dark-gray pb-4'>
             <div className='flex flex-row items-center'>
             <img 
               className='relitive pr-1'
