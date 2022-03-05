@@ -8,7 +8,7 @@ export default function Home() {
         <title>Front-End Mentor Practice Problem</title>
       </Head>
       <div className='grid place-items-center h-screen bg-dark-blue'>
-        <div className='bg-darkish-blue w-96	w-2/3 rounded-md p-6'>
+        <div className='bg-darkish-blue w-96	h-auto rounded-md p-6'>
           <Image 
             className='rounded-md'
             src={'/image-equilibrium.jpg'}
