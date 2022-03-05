@@ -3,8 +3,13 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div>
-      <h2 className='text-red-400	'>Hello, World!</h2>
-    </div>
+    <main>
+      <Head>
+        <title>Front-End Mentor Practice Problem</title>
+      </Head>
+      <div className='grid place-items-center h-screen bg-dark-blue'>
+        <p className='text-white font-outfit font-semibold text-2xl'>Equilibrium #3429</p>
+      </div>
+    </main>
   )
 }
