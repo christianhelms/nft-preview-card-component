@@ -12,6 +12,7 @@ export default function Home() {
           <Image 
             className='rounded-md'
             src={'/image-equilibrium.jpg'}
+            alt={'equilibrium nft'}
             width={400}
             height={400}
           />
@@ -34,6 +35,16 @@ export default function Home() {
             />
             <p className='text-dark-gray font-outfit font-light'>3 days left</p>
             </div>
+          </div>
+          <div className='flex content-center pt-2'>
+            <Image 
+              src={'/image-avatar.png'}
+              alt={'Jules Wyvern'}
+              width={30}
+              height={30}
+            />
+            <p className='text-dark-gray font-outfit font-light pr-1 pl-2'>Creation of </p>
+            <p className='text-white font-outfit font-light'> Jules Wyvern</p>
           </div>
         </div>
       </div>
