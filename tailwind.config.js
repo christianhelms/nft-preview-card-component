@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     colors: {
       'dark-blue': '#0d1a2d', //main background
-      'dark-gray':'#8299ba', //card background
+      'darkish-blue': '#15273f', //card background
+      'dark-gray':'#8299ba', // body text
       'mint-blue':'#41e5ed', //price
       'very-dark-gray':'#293b53', //line
       'white':'#FFFFFF'
