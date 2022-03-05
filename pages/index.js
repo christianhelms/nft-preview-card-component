@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
+import Eth from "../public/icon-ethereum.svg";
+
 export default function Home() {
   return (
     <main>
@@ -16,6 +18,9 @@ export default function Home() {
           />
           <p className='text-white font-outfit font-semibold text-2xl'>Equilibrium #3429</p>
           <p className='text-dark-gray font-outfit text-lg font-light'>Our Equilibrium collection promotes balance and calm.</p>
+          <div>
+            <Eth />
+          </div>
         </div>
       </div>
     </main>
